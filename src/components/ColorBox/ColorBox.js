@@ -2,8 +2,6 @@ import React from "react";
 import Clipboard from "react-clipboard.js";
 
 const ColorBox = ({ haxCode }) => {
-  const copyToClipboard = () => {};
-
   return (
     <Clipboard
       data-clipboard-text={haxCode}
@@ -13,7 +11,6 @@ const ColorBox = ({ haxCode }) => {
         id={haxCode}
         className="div-colorbox"
         style={{ background: `${haxCode}` }}
-        onClick={copyToClipboard}
       >
         {haxCode}
       </div>
