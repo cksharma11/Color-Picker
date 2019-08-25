@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render properly 1`] = `
+"<div className=\\"div-footer\\">
+  With great color, comes great design.
+</div>"
+`;

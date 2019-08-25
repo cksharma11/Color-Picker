@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorBoxContainer should render properly 1`] = `
+"<div className=\\"div-color-container\\">
+  <ColorBox haxCode=\\"red\\" />
+  <ColorBox haxCode=\\"green\\" />
+</div>"
+`;
