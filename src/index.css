@@ -1,5 +1,7 @@
 html,
 body {
+  padding: 0;
+  margin: 0;
   font-family: "Cinzel", serif;
 }
 
@@ -11,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
+  border-bottom: 10px solid whitesmoke;
 }
 
 .div-color-title {
@@ -34,12 +36,12 @@ body {
   border-radius: 5px;
   font-size: 18px;
   color: white;
-  transition: transform 0.2s;
+  transition: transform 0.1s;
 }
 
 .div-colorbox:hover {
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.1s;
   transform: scale(1.1);
   box-shadow: 0px 0px 10px gray;
 }
@@ -48,6 +50,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-bottom: 10px solid whitesmoke;
 }
 
 .div-footer {
@@ -58,8 +61,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  background: whitesmoke;
 }
 
 button:focus {

@@ -11,11 +11,20 @@ const colors = [
       "#EC4849",
       "#FF3E4D",
       "#E71C23",
-      "#EA425C"
+      "#EA425C",
+      "#Eb5030",
+      "#730113",
+      "#bf6464",
+      "#ba0b32",
+      "#980036",
+      "#df7163",
+      "#800000",
+      "#420303",
+      "#9e3623"
     ]
   },
   {
-    colorTitle: "Blue Butterflys",
+    colorTitle: "Blue Butterflies",
     values: [
       "#3498DB",
       "#487EB0",
@@ -51,7 +60,7 @@ const colors = [
     ]
   },
   {
-    colorTitle: "Fress Yellow",
+    colorTitle: "Fresh Yellow",
     values: [
       "#EEC213",
       "#F5C469",
@@ -82,6 +91,48 @@ const colors = [
       "#2F363F",
       "#586776",
       "#8395A7"
+    ]
+  },
+  {
+    colorTitle: "Purple Gang",
+    values: [
+      "#a442a0",
+      "#736a86",
+      "#ad0afd",
+      "#7f3e98",
+      "#412a7a",
+      "#9d8abf",
+      "#7c5379",
+      "#7a547f",
+      "#84597e",
+      "#803790",
+      "#bf00ff",
+      "#916e99",
+      "#9878f8",
+      "#CC00FF",
+      "#ab92b3",
+      "#4B0082",
+      "#4B0082",
+      "#b56edc",
+      "#bc13fe"
+    ]
+  },
+  {
+    colorTitle: "Brown Town",
+    values: [
+      "#d7a98c",
+      "#c99f99",
+      "#98623c",
+      "#c1b5a9",
+      "#996633",
+      "#e9d7ab",
+      "#e6daa6",
+      "#a87900",
+      "#CC8833",
+      "#4a2c2a",
+      "#b0724a",
+      "#9e3623",
+      "#9f7d4f"
     ]
   },
   {
