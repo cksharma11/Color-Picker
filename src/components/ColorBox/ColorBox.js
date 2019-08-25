@@ -1,17 +1,23 @@
 import React from "react";
+import Clipboard from "react-clipboard.js";
 
 const ColorBox = ({ haxCode }) => {
   const copyToClipboard = () => {};
 
   return (
-    <div
-      id={haxCode}
-      className="div-colorbox"
-      style={{ background: `${haxCode}` }}
-      onClick={copyToClipboard}
+    <Clipboard
+      data-clipboard-text={haxCode}
+      style={{ background: "none", border: "none", fontFamily: "inherit" }}
     >
-      {haxCode}
-    </div>
+      <div
+        id={haxCode}
+        className="div-colorbox"
+        style={{ background: `${haxCode}` }}
+        onClick={copyToClipboard}
+      >
+        {haxCode}
+      </div>
+    </Clipboard>
   );
 };
 

@@ -1,3 +1,7 @@
+html, body {
+  font-family: 'Cinzel', serif;
+}
+
 .div-header {
   height: 65px;
   font-size: 25px;
@@ -6,11 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #bbb;
+  background: whitesmoke;
 }
 
 .div-color-title {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid whitesmoke;
   height: 60px;
   display: flex;
   justify-content: left;
@@ -52,6 +56,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #bbb;
   margin-top: 20px;
+  background: whitesmoke;
 }
