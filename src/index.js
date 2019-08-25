@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import Header from "./components/Header/Header";
 import "./index.css";
 import ColorTitle from "./components/ColorTitle/ColorTitle";
-import ColorBoxContainer from "./ColorBoxContainer/ColorBoxContainer";
-import Footer from "./Footer/Footer";
+import ColorBoxContainer from "./components/ColorBoxContainer/ColorBoxContainer";
+import Footer from "./components/Footer/Footer";
 import colors from "./colors/colors";
 
 const Index = () => {
