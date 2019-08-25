@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Clipboard from "react-clipboard.js";
 
 const ColorBox = ({ haxCode }) => {
+  const [status, setStatus] = useState(haxCode);
+  const setCopySucess = () => {
+    setStatus("Copied");
+    setTimeout(() => {
+      setStatus(haxCode);
+    }, 1000);
+  };
+
   return (
     <Clipboard
       data-clipboard-text={haxCode}
@@ -11,8 +19,9 @@ const ColorBox = ({ haxCode }) => {
         id={haxCode}
         className="div-colorbox"
         style={{ background: `${haxCode}` }}
+        onClick={setCopySucess}
       >
-        {haxCode}
+        {status}
       </div>
     </Clipboard>
   );
