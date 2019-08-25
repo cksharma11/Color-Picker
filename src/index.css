@@ -6,8 +6,8 @@ body {
 }
 
 .div-header {
-  height: 65px;
-  font-size: 25px;
+  height: 60px;
+  font-size: 23px;
   text-align: center;
   vertical-align: middle;
   display: flex;
@@ -18,23 +18,23 @@ body {
 
 .div-color-title {
   border-bottom: 1px solid whitesmoke;
-  height: 60px;
+  height: 55px;
   display: flex;
   justify-content: left;
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 18px;
   align-items: center;
 }
 
 .div-colorbox {
-  width: 250px;
-  height: 180px;
+  width: 220px;
+  height: 165px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   transition: transform 0.1s;
 }
@@ -54,8 +54,8 @@ body {
 }
 
 .div-footer {
-  height: 65px;
-  font-size: 25px;
+  height: 60px;
+  font-size: 23px;
   text-align: center;
   vertical-align: middle;
   display: flex;
