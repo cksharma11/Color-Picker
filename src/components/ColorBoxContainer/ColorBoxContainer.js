@@ -5,7 +5,13 @@ const ColorBoxContainer = ({ colors }) => {
   return (
     <div className="div-color-container">
       {colors.map(color => {
-        return <ColorBox haxCode={color} key={color} />;
+        return (
+          <ColorBox
+            haxCode={color.colorCode}
+            colorName={color.colorName}
+            key={color.colorCode}
+          />
+        );
       })}
     </div>
   );
