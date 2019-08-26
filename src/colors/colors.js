@@ -1,6 +1,6 @@
 const colors = [
   {
-    colorFamilyTitle: "Red Roses",
+    colorFamily: "Red Roses",
     shades: [
       { colorName: "Cinnabar", colorCode: "#E44236" },
       { colorName: "Fire Brick", colorCode: "#B83227" },
@@ -24,7 +24,7 @@ const colors = [
     ]
   },
   {
-    colorFamilyTitle: "Blue Butterflies",
+    colorFamily: "Blue Butterflies",
     shades: [
       { colorName: "Summer Sky", colorCode: "#3498DB" },
       { colorName: "Steel Blue", colorCode: "#487EB0" },
@@ -41,7 +41,7 @@ const colors = [
     ]
   },
   {
-    colorFamilyTitle: "Green Grass",
+    colorFamily: "Green Grass",
     shades: [
       { colorName: "Shamrock", colorCode: "#2ecc72" },
       { colorName: "Jungle Green", colorCode: "#26ae60" },
@@ -60,7 +60,7 @@ const colors = [
     ]
   },
   {
-    colorFamilyTitle: "Fresh Yellow",
+    colorFamily: "Fresh Yellow",
     shades: [
       { colorName: "Moon Yellow", colorCode: "#EEC213" },
       { colorName: "Tacao", colorCode: "#F5C469" },
@@ -79,7 +79,7 @@ const colors = [
     ]
   },
   {
-    colorFamilyTitle: "Shades of Gray",
+    colorFamily: "Shades of Gray",
     shades: [
       { colorName: "Regent Gray", colorCode: "#7B8788" },
       { colorName: "Conch", colorCode: "#99AAAB" },
@@ -94,7 +94,7 @@ const colors = [
     ]
   },
   {
-    colorFamilyTitle: "Purple Gang",
+    colorFamily: "Purple Gang",
     shades: [
       { colorName: "Fuchsia", colorCode: "#a442a0" },
       { colorName: "Mamba", colorCode: "#736a86" },
@@ -118,7 +118,7 @@ const colors = [
     ]
   },
   {
-    colorTitle: "Brown Town",
+    colorFamily: "Brown Town",
     shades: [
       { colorName: "Calico", colorCode: "#d7a98c" },
       { colorName: "Eunry", colorCode: "#c99f99" },
@@ -136,7 +136,7 @@ const colors = [
     ]
   },
   {
-    colorTitle: "Random Fun",
+    colorFamily: "Random Fun",
     shades: [
       { colorName: "Solitude", colorCode: "#EAF0F1" },
       { colorName: "Dark Pink", colorCode: "#E74292" },

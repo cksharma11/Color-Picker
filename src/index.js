@@ -14,7 +14,7 @@ const Index = () => {
       {colors.map(color => {
         return (
           <Fragment>
-            <ColorTitle colorTitle={color.colorFamilyTitle} />
+            <ColorTitle colorTitle={color.colorFamily} />
             <ColorBoxContainer colors={color.shades} />
           </Fragment>
         );
