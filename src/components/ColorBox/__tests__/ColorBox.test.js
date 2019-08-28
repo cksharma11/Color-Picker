@@ -7,7 +7,7 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe("ColorBox", () => {
   it("should render properly", () => {
-    const wrapper = shallow(<ColorBox haxCode="#bbb" />);
+    const wrapper = shallow(<ColorBox hexCode="#bbb" colorName="abc" />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

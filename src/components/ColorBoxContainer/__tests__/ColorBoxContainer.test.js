@@ -7,7 +7,14 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe("ColorBoxContainer", () => {
   it("should render properly", () => {
-    const wrapper = shallow(<ColorBoxContainer colors={['red', 'green']} />);
+    const wrapper = shallow(
+      <ColorBoxContainer
+        colors={[
+          { colorName: "red", colorCode: "red" },
+          { colorName: "green", colorCode: "green" }
+        ]}
+      />
+    );
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

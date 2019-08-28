@@ -2,7 +2,7 @@
 
 exports[`ColorBoxContainer should render properly 1`] = `
 "<div className=\\"div-color-container\\">
-  <ColorBox haxCode=\\"red\\" />
-  <ColorBox haxCode=\\"green\\" />
+  <ColorBox hexCode=\\"red\\" colorName=\\"red\\" />
+  <ColorBox hexCode=\\"green\\" colorName=\\"green\\" />
 </div>"
 `;
