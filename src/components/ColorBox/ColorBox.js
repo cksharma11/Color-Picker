@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Clipboard from "react-clipboard.js";
 
-const ColorBox = ({ haxCode, colorName }) => {
+const ColorBox = ({ hexCode, colorName }) => {
   const [status, setStatus] = useState(colorName);
   const setCopySuccess = () => {
     setStatus("Copied");
@@ -12,13 +12,13 @@ const ColorBox = ({ haxCode, colorName }) => {
 
   return (
     <Clipboard
-      data-clipboard-text={haxCode}
+      data-clipboard-text={hexCode}
       style={{ background: "none", border: "none", fontFamily: "inherit" }}
     >
       <div
-        id={haxCode}
+        id={hexCode}
         className="div-colorbox"
-        style={{ background: `${haxCode}` }}
+        style={{ background: `${hexCode}` }}
         onClick={setCopySuccess}
       >
         {status}

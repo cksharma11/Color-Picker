@@ -7,7 +7,7 @@ const ColorBoxContainer = ({ colors }) => {
       {colors.map(color => {
         return (
           <ColorBox
-            haxCode={color.colorCode}
+            hexCode={color.colorCode}
             colorName={color.colorName}
             key={color.colorCode}
           />
