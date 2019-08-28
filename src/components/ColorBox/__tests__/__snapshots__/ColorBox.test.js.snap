@@ -2,8 +2,8 @@
 
 exports[`ColorBox should render properly 1`] = `
 "<ClipboardButton data-clipboard-text=\\"#bbb\\" style={{...}} onClick={[Function: onClick]}>
-  <div id=\\"#bbb\\" className=\\"div-colorbox\\" style={{...}} onClick={[Function: setCopySucess]}>
-    #bbb
+  <div id=\\"#bbb\\" className=\\"div-colorbox\\" style={{...}} onClick={[Function: setCopySuccess]}>
+    abc
   </div>
 </ClipboardButton>"
 `;
