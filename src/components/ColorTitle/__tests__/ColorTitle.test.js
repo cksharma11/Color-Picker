@@ -7,7 +7,7 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe("ColorTitle", () => {
   it("should render properly", () => {
-    const wrapper = shallow(<ColorTitle colorTitle="red" />);
+    const wrapper = shallow(<ColorTitle colorFamiy="red" />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

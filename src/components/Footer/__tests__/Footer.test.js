@@ -5,9 +5,13 @@ import Footer from "../Footer";
 
 Enzyme.configure({ adapter: new Adapter() });
 
+const colorList = [
+  { colorName: "red", colorCode: "#FF0000" },
+  { colorName: "green", colorCode: "#008000" }
+];
 describe("Footer", () => {
   it("should render properly", () => {
-    const wrapper = shallow(<Footer colors={["red", "green"]} />);
+    const wrapper = shallow(<Footer colors={colorList} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });
