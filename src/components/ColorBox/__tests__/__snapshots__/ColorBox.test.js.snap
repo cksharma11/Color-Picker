@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ColorBox should render properly 1`] = `
-"<ClipboardButton data-clipboard-text=\\"#bbb\\" style={{...}} onClick={[Function: onClick]}>
-  <div id=\\"#bbb\\" className=\\"div-colorbox\\" style={{...}} onClick={[Function: setCopySucess]}>
-    #bbb
-  </div>
+"<ClipboardButton data-clipboard-text={[undefined]} style={{...}} onClick={[Function: onClick]}>
+  <div id={[undefined]} className=\\"div-colorbox\\" style={{...}} onClick={[Function: setCopySuccess]} />
 </ClipboardButton>"
 `;
