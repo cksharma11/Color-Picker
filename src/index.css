@@ -18,12 +18,20 @@ body {
 
 .div-color-title {
   border-bottom: 1px solid whitesmoke;
+<<<<<<< Updated upstream
   height: 55px;
+=======
+  height: 50px;
+>>>>>>> Stashed changes
   display: flex;
   justify-content: left;
   padding-left: 20px;
   font-size: 18px;
   align-items: center;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  background: white;
 }
 
 .div-colorbox {
