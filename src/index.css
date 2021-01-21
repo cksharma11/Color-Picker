@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
 }
 
 .div-header {
@@ -31,7 +31,8 @@ body {
   background: white;
 }
 
-.div-colorbox {
+.div-colorbox,
+.copied {
   width: 250px;
   height: 180px;
   display: flex;
@@ -49,6 +50,20 @@ body {
   transition: transform 0.1s;
   transform: scale(1.1);
   box-shadow: 0px 0px 10px gray;
+  font-size: 0;
+}
+
+.copied:hover {
+  cursor: pointer;
+  transition: transform 0.1s;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px gray;
+  font-size: 20px;
+}
+
+.div-colorbox:hover:before {
+  font-size: 20px;
+  content: attr(data-hover);
 }
 
 .div-color-container {
@@ -70,4 +85,10 @@ body {
 
 button:focus {
   outline: none;
+}
+
+.color-box {
+  background: 'none';
+  border: 'none';
+  font-family: 'inherit';
 }
